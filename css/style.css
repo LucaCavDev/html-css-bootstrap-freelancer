@@ -1,0 +1,28 @@
+/* regole di debug */
+[class*="col-"] {
+  min-height: 100px;
+  background-color: lightgreen;
+  border: solid 1px  #000;
+}
+
+
+.container-fluid {
+  background-color: pink;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.grey {
+  background-color: grey;
+}
+
+.blue {
+  background-color: blue;
+}
