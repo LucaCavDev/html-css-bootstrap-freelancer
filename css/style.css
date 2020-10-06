@@ -31,6 +31,18 @@
   color: white !important;
 }
 
+.formtext {
+  color: #2C3E50 !important;
+}
+
+.h1text {
+  color: #333333 !important;
+}
+
+.azzurrino {
+  color: #1ABC9C !important;
+}
+
 .bold {
   font-weight: bold !important;
 }
@@ -96,12 +108,13 @@ header .navbar .container-fluid {
   width:10%;
   display: inline-block;
   text-align: center;
+  color: #2C3E50;
 }
 
 #section1 .glyphicon {
   padding: 15px;
   font-size: 35px;
-  color: ;
+  color: #2C3E50;
 }
 
 #section2 {
@@ -127,12 +140,13 @@ header .navbar .container-fluid {
   width: 10%;
   display: inline-block;
   text-align: center;
+  color: #2C3E50;
 }
 
 #section3 .glyphicon {
   padding: 15px;
   font-size: 35px;
-  color: ;
+  color: #2C3E50;
 }
 
 
