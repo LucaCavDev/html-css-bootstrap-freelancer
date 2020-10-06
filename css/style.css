@@ -6,12 +6,12 @@
 }
 
 /* regole di debug */
-/* [class*="col-"] {
-  min-height: 100px;
+[class*="col-"] {
+  /* min-height: 100px;
   background-color: lightgreen;
   border: solid 1px  #000;
-  padding: 2px;
-} */
+  padding: 2px; */
+}
 
 /* .row .col-6 div  */
 [class*="col-"] > .row > [class*="col-"]{
@@ -75,6 +75,8 @@ header .navbar .container-fluid {
 #jumbotron {
   background-color: #1ABC9C;
   text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #avatar {
@@ -95,7 +97,10 @@ header .navbar .container-fluid {
   color: white;
 }
 
-
+#section1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 #section1 img {
   max-width: 100%;
@@ -119,6 +124,8 @@ header .navbar .container-fluid {
 
 #section2 {
   background-color: #1ABC9C;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #section2 hr {
@@ -132,6 +139,20 @@ header .navbar .container-fluid {
   padding: 15px;
   font-size: 35px;
   color: white;
+}
+
+.btnD {
+  background-color: #1ABC9C;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#section3 {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 
@@ -149,12 +170,18 @@ header .navbar .container-fluid {
   color: #2C3E50;
 }
 
+.send {
+  background-color: #1db096 !important;
+}
+
 
 
 
 #footer1 {
   background-color: #3A546D;
   text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
 
 }
 
@@ -187,5 +214,7 @@ header .navbar .container-fluid {
 #footer2 {
   background-color: #2C3E50;
   text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
 
 }
