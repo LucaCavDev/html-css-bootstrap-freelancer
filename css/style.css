@@ -141,13 +141,20 @@ header .navbar .container-fluid {
   color: white;
 }
 
+
+.s2paddtext {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
 .btnD {
   background-color: #1ABC9C;
-  border: none;
+  border: 1px solid white;
+  border-radius: 5%;
   color: white;
-  padding: 12px 30px;
+  padding: 5%;
   cursor: pointer;
   font-size: 18px;
+
 }
 
 #section3 {
